@@ -1,0 +1,15 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "user": "Antonio",
+    "contra": "1234"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+DELETE http://localhost:9000/api/users/661344a8de45bab5c7819aaa HTTP/1.1
+
